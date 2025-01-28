@@ -45,7 +45,7 @@ class User(BaseUser):
         self.display_name: str = data["displayName"]
         # self.external_app_display_name: Optional[str] = data["externalAppDisplayName"]
         self.id: int = data["id"]
-        self.is_banned: bool = data["isBanned"]
+        # self.is_banned: bool = data["isBanned"]
         self.description: str = data["description"]
         self.created: datetime = parse(data["created"])
         self.has_verified_badge: bool = data["hasVerifiedBadge"]
