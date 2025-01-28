@@ -6,7 +6,7 @@ Contains classes related to Roblox friend data and parsing.
 from __future__ import annotations
 from typing import Optional, TYPE_CHECKING
 
-from partials.partialuser import PartialUser
+from .partials.partialuser import PartialUser
 
 if TYPE_CHECKING:
     from .client import Client
