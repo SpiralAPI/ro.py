@@ -43,7 +43,7 @@ class User(BaseUser):
 
         self.name: str = data["name"]
         self.display_name: str = data["displayName"]
-        self.external_app_display_name: Optional[str] = data["externalAppDisplayName"]
+        # self.external_app_display_name: Optional[str] = data["externalAppDisplayName"]
         self.id: int = data["id"]
         self.is_banned: bool = data["isBanned"]
         self.description: str = data["description"]
